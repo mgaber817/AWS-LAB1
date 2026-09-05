@@ -21,7 +21,8 @@ back to
 <img width="1911" height="923" alt="aws-lambda-power-tuning" src="https://github.com/user-attachments/assets/3331be20-4319-43b7-8244-fd7e9e04bc18" />
 the conclusion was that the performance changed a lot when adding memory to the lambda while the cost did not change a lot . I was able to test up to 512M due to free tier of lambda in my AWS account, surely it worth to retest at 1024M to see the difference.
 
-Takeaways:
+
+**Takeaways:**
 Lambda tuning is not just code optimization but the configurations too.
 AWS Lambda Power Tuning comes very handy to know what is the optimal configuration for our lambda.
 AWS Pricing calculator also helps to verify these results. (This is not included in this project)
